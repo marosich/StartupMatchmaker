@@ -1,0 +1,170 @@
+/* CURRENTLY IN: styles/main.css */
+
+html {
+	font-size: 10px;
+
+}
+
+.wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.nav {
+	background-color: black;
+	border-bottom: solid yellow 1px;
+	box-sizing: border-box;
+	background-position: center;
+}
+
+.nav__logo {
+	color: yellow;
+	font-style: italic;
+	font-size: 3rem;
+	padding: 1rem;
+	float: left;
+}
+
+.navmain {
+	float: right;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+}
+
+.navmain__copy {
+	color: white;
+	font-family: Arial;
+	font-size: 1.2rem;
+	padding-left: 1rem;
+}
+.navmain__bold {
+	font-weight: 600;
+	font-size: 1.8rem;
+}
+.navmain__last {
+	padding-right: 1rem;
+}
+
+.main {
+	box-sizing: border-box;
+	background-image: url(../images/coworking.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bar {
+	background-color: gray;
+	width: 100%;
+}
+
+.bar__copy {
+	font-size: 3rem;
+	padding: 1rem;
+	text-align: center;
+	font-style: italic;
+	font-weight: 800;
+}
+
+#slash {
+	color: #A9A9A9;
+	text-decoration: line-through;
+}
+
+#underline {
+	border-bottom: yellow solid 2px;
+}
+
+.main__floating {
+	color: black;
+	width: 33%;
+	min-height: 80%;
+	float: right;
+	margin: 2rem;
+	display: block;
+	background-color: rgba(255, 255, 255, 0.8);
+		
+}
+
+.copywrap {
+	margin: 2rem;
+
+}
+.floatinghead {
+	font-weight: 800;
+	font-size: 2.8rem;
+	font-family: arial;
+}
+
+.floatingbody {
+	font-size: 1.8rem;
+	margin: 1rem 0;
+	font-family: arial;
+	line-height: 2.4rem;
+}
+
+.button {
+	margin: 0 auto;
+	text-align: center;
+}
+.main__button {
+	color: black;
+	font-family: arial;
+	font-weight: 800;
+	font-size: 2.2rem;
+	background-color: yellow;
+	padding: .8rem 2rem;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 2rem;
+	font-weight: 600px
+}
+
+.bottom {
+	box-sizing: border-box;
+}
+
+.bottom__block {
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	width: 33.33%;
+	border-right: 1px solid gray;
+	margin: 2rem 0;
+	padding: 0 2rem;
+}
+
+.bottom__last {
+	border-right: none;
+}
+.bottom__head {
+	font-size: 2rem;
+	font-weight: 600;
+
+}
+
+.bottom__copy {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	font-family: arial;
+}
+
+.bottom__button {
+	color: black;
+	font-family: arial;
+	font-weight: 600;
+	font-size: 2rem;
+	background-color: gray;
+	padding: .8rem;
+	width: 100%;
+	display: inline-block;
+	margin-top: 1rem;
+}
+
+.footer {
+	background-color: black;
+	font-size: 1.2rem;
+	padding: 1.5rem;
+	color: white;
+	font-weight: 600;
+	font-family: arial; 
+}
+
