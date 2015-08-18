@@ -5,23 +5,28 @@ html {
 
 }
 
+a:hover { 
+    color: yellow;
+}
+
 .wrapper {
 	max-width: 1280px;
 	margin: 0 auto;
 }
 .nav {
 	background-color: black;
-	border-bottom: solid yellow 1px;
+	border-bottom: solid yellow 2px;
 	box-sizing: border-box;
 	background-position: center;
 }
 
 .nav__logo {
 	color: yellow;
-	font-style: italic;
 	font-size: 3rem;
 	padding: 1rem;
 	float: left;
+	font-family: Lucida Bright;
+	font-weight: 800;
 }
 
 .navmain {
@@ -32,13 +37,14 @@ html {
 
 .navmain__copy {
 	color: white;
-	font-family: Arial;
-	font-size: 1.2rem;
+	font-family: calibri;
+	font-size: 1.6rem;
 	padding-left: 1rem;
 }
 .navmain__bold {
-	font-weight: 600;
+	font-weight: normal;
 	font-size: 1.8rem;
+	font-family: impact;
 }
 .navmain__last {
 	padding-right: 1rem;
@@ -52,16 +58,17 @@ html {
 }
 
 .bar {
-	background-color: gray;
+	background-color: #d3d3d3;
 	width: 100%;
 }
 
 .bar__copy {
-	font-size: 3rem;
+	font-size: 2.5rem;
 	padding: 1rem;
 	text-align: center;
+	font-family: cambria;
 	font-style: italic;
-	font-weight: 800;
+	font-weight: bold;
 }
 
 #slash {
@@ -70,7 +77,7 @@ html {
 }
 
 #underline {
-	border-bottom: yellow solid 2px;
+	border-bottom: yellow solid 3px;
 }
 
 .main__floating {
@@ -90,15 +97,16 @@ html {
 }
 .floatinghead {
 	font-weight: 800;
-	font-size: 2.8rem;
-	font-family: arial;
+	font-size: 2.4rem;
+	font-family: calibri;
 }
 
 .floatingbody {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	margin: 1rem 0;
-	font-family: arial;
+	font-family: calibri;
 	line-height: 2.4rem;
+	font-weight: 400;
 }
 
 .button {
@@ -107,15 +115,19 @@ html {
 }
 .main__button {
 	color: black;
-	font-family: arial;
-	font-weight: 800;
-	font-size: 2.2rem;
+	font-family: impact;
+	font-weight: normal;
+	font-size: 1.8rem;
 	background-color: yellow;
-	padding: .8rem 2rem;
+	padding: .8rem 3rem;
 	display: inline-block;
 	border-radius: 5px;
-	font-size: 2rem;
-	font-weight: 600px
+	word-spacing: 3px;
+}
+
+.main__button:hover { 
+    color: yellow;
+    background-color: black;
 }
 
 .bottom {
@@ -127,7 +139,7 @@ html {
 	float: left;
 	display: inline-block;
 	width: 33.33%;
-	border-right: 1px solid gray;
+	border-right: 1px solid #d3d3d3;
 	margin: 2rem 0;
 	padding: 0 2rem;
 }
@@ -136,35 +148,44 @@ html {
 	border-right: none;
 }
 .bottom__head {
-	font-size: 2rem;
+	font-size: 2.4rem;
 	font-weight: 600;
+	margin-bottom: 1rem;
+	font-family: cambria;
 
 }
 
 .bottom__copy {
 	font-size: 1.6rem;
-	line-height: 2.4rem;
-	font-family: arial;
+	line-height: 2rem;
+	font-family: calibri;
+	font-weight: 400;
 }
 
 .bottom__button {
 	color: black;
-	font-family: arial;
-	font-weight: 600;
-	font-size: 2rem;
-	background-color: gray;
+	font-family: impact;
+	font-weight: normal;
+	font-size: 1.8rem;
+	background-color: #d3d3d3;
 	padding: .8rem;
 	width: 100%;
 	display: inline-block;
 	margin-top: 1rem;
+	letter-spacing: .3px;
+	border-radius: 5px;
+}
+
+.bottom__button:hover {
+	background-color: yellow;
 }
 
 .footer {
 	background-color: black;
-	font-size: 1.2rem;
+	font-size: 1.8rem;
 	padding: 1.5rem;
 	color: white;
-	font-weight: 600;
-	font-family: arial; 
+	font-weight: 400;
+	font-family: calibri; 
 }
 
